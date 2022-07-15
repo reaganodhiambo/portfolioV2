@@ -1,0 +1,80 @@
+:root {
+    --primary: #075FE4;
+    --secondary: #2E81FF;
+    --neutral800: #1B1F24;
+    --neutral700: #2D343F;
+    --netral600: #5D6C83;
+    --neutral500: #8895AA;
+    --neutral400: #C3CAD5;
+    --neutral300: #E4E7EC;
+    --neutral200: #F0F2F4;
+    --neutral100: #FFFFFF;
+    --font1: Space Grotesk Bold;
+
+    --heading1: 90px / 1.111em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+
+body {
+    background-color: #1B1F24;
+    color: #E4E7EC;
+    font-family: 'Space Grotesk';
+}
+
+
+.navbar-brand {
+    font-size: 34px;
+    font-weight: bold;
+    transition: ease-in-out 0.4s;
+}
+
+.navbar-brand:hover {
+    color: #2E81FF !important;
+}
+
+.nav-item {
+    padding-left: 40px;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    width: auto;
+    transition: ease-in-out 0.4s;
+}
+
+.nav-link:hover {
+    color: var(--netral600) !important;
+}
+
+.hero {
+    height: 100vh;
+}
+
+.name {
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: bold;
+    font-family: 'Space Grotesk Bold';
+}
+
+h4 {
+    color: var(--neutral400);
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+.blue {
+    color: #075FE4;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+footer{
+    padding-left: 0% !important;
+}
