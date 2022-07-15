@@ -20,7 +20,8 @@
 body {
     background-color: #1B1F24;
     color: #E4E7EC;
-    font-family: 'Space Grotesk';
+    font-family: 'Space Grotesk',
+        sans-serif;
 }
 
 
@@ -58,7 +59,7 @@ body {
     color: #FFFFFF;
     font-size: 58px;
     font-weight: bold;
-    font-family: 'Space Grotesk Bold';
+    font-family: 'Spacegrotesk Bold';
 }
 
 h4 {
@@ -75,6 +76,28 @@ h1 {
     font-weight: bolder;
 }
 
-footer{
+footer {
     padding-left: 0% !important;
+}
+
+.copyright {
+    font-size: 20px !important;
+    
+}
+
+.last{
+    padding-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.socials > i{
+    font-size: 20px;
+    transition: all 1s;
+}
+
+
+.socials > i:hover {
+    font-size: 30px;
+    color: var(--netral600);
+    transform: rotate(25deg);
 }
