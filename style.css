@@ -104,6 +104,7 @@ h1 {
 
 .serv{
     background-color: #2D343F;
+    height: 100vh;
 }
 
 p {
@@ -114,13 +115,7 @@ p {
 .cp{
    color: var(--netral600);
 }
-@media (min-width: 442px){
-    .serv {
-        margin-top: 5px;
-    }
-}
 
-/* .btn {
-    color: #FFFFFF !important;
-    background-color: #075FE4 !important;
-} */
+@media only screen and (max-width: 442px) {
+    
+}
