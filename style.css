@@ -50,11 +50,10 @@ body {
 .nav-link:hover {
     color: var(--netral600) !important;
 }
-
+/* 
 .hero {
     height: 100vh;
-}
-
+} */
 
 .name {
     color: #FFFFFF;
