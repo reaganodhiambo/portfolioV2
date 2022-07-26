@@ -50,8 +50,8 @@ body {
 .nav-link:hover {
     color: var(--netral600) !important;
 }
-/* 
-.hero {
+
+/* .hero {
     height: 100vh;
 } */
 
@@ -106,8 +106,14 @@ h1 {
     background-color: #2D343F;
 }
 
+p {
+    color: var(--neutral400);
+    font-size: 18px;
+}
 
-
+.cp{
+   color: var(--netral600);
+}
 @media (min-width: 442px){
     .serv {
         margin-top: 5px;
