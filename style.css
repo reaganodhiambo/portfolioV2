@@ -90,15 +90,15 @@ h1 {
     padding-right: 0px;
     font-size: 1rem;
 }
-.socials>i {
-    /* font-size: 20px; */
+.socials>a>i {
+    font-size: 20px; 
     transition: all 1s;
 }
 
 
-.socials>i:hover {
+.socials>a>i:hover {
     /* font-size: 30px; */
-    color: #075FE4;
+    color: #5D6C83;
     transform: rotate(15deg);
 }
 
