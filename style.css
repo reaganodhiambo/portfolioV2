@@ -23,7 +23,9 @@ body {
     font-family: 'SpaceGrotesk',
         sans-serif;
 }
-
+nav{
+    background-color: #1B1F24 !important;
+}
 
 .navbar-brand {
     font-size: 34px;
