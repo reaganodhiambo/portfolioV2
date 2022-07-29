@@ -124,9 +124,9 @@ p {
 
 
 
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
     #navbarScroll {
         display: flex;
         justify-content: center !important;
     }
-}
+} */
