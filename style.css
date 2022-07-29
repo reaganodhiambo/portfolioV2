@@ -123,8 +123,9 @@ p {
 
 
 
- @media only screen and (max-width: 991px) {
+ @media only screen and (max-width: 701px) {
     .xp {
         text-align: center;
+        padding: 2rem;
     }
 } 
