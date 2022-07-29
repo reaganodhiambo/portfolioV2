@@ -122,6 +122,11 @@ p {
    color: var(--netral600);
 }
 
-@media only screen and (max-width: 442px) {
-    
+
+
+@media only screen and (max-width: 991px) {
+    #navbarScroll {
+        display: flex;
+        justify-content: center !important;
+    }
 }
