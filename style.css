@@ -3,7 +3,7 @@
     --secondary: #2E81FF;
     --neutral800: #1B1F24;
     --neutral700: #2D343F;
-    --netral600: #5D6C83;
+    --neutral600: #5D6C83;
     --neutral500: #8895AA;
     --neutral400: #C3CAD5;
     --neutral300: #E4E7EC;
@@ -49,7 +49,7 @@ nav{
 }
 
 .nav-link:hover {
-    color: var(--netral600) !important;
+    color: var(--neutral600) !important;
 }
 
 /* .hero {
@@ -118,7 +118,7 @@ p {
 }
 
 .cp{
-   color: var(--netral600);
+   color: var(--neutral600);
 }
 
 
