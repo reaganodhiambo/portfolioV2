@@ -58,14 +58,14 @@ nav {
 }
 
 .hero {
-    margin-top: 70px;
+    margin-top: 15vh;
 }
 
 
 .description {
     color: #FFFFFF;
     font-size: 3rem;
-    font-weight: 1px !;
+    /* font-weight: 600; */
     font-family: 'Spacegrotesk Bold';
 }
 
@@ -79,9 +79,7 @@ h4 {
     color: #075FE4;
 }
 
-h1 {
-    font-weight: bolder;
-}
+
 
 .footer {
     background-color: #1B1F24;
@@ -129,12 +127,27 @@ p {
     color: var(--neutral600);
 }
 
+.con {
+    padding: 2rem;
+    border-radius: 2em;
+    background-color: #2D343F;
+}
 
-
-@media only screen and (max-width: 701px) {
-    .xp>.col-sm {
+@media only screen and (max-width: 768px) {
+    .contact-left>h2 {
         text-align: center;
-        padding: 1.4rem;
+    }
+    .contact-left>p{
+        margin-left: 45px;
+        
+        text-align: center;
+
+    }
+    .socials{
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
