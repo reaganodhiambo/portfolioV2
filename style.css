@@ -52,18 +52,20 @@ nav {
 .nav-link:hover {
     color: var(--neutral600) !important;
 }
-.reagan{
-    border-radius: 50% ;
+
+.reagan {
+    border-radius: 50%;
 }
+
 .hero {
     margin-top: 70px;
-    
-    }
+}
 
-.name {
+
+.description {
     color: #FFFFFF;
     font-size: 3rem;
-    font-weight: 1;
+    font-weight: 1px !;
     font-family: 'Spacegrotesk Bold';
 }
 
@@ -137,8 +139,8 @@ p {
 }
 
 @media only screen and (max-width: 992px) {
-    .rowd{
-       display: flex;
-       flex-direction: column;
+    .rowd {
+        display: flex;
+        flex-direction: column;
     }
 }
