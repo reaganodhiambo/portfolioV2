@@ -170,6 +170,9 @@ nav {
     color: var(--neutral600);
 }
 
+.border-top{
+    color: #2E81FF !important;
+}
 
 /* end footer */
 
