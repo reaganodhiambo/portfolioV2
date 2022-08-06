@@ -7,6 +7,19 @@
 <!--<![endif]-->
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QR1L56Z8MQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-QR1L56Z8MQ');
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -137,7 +150,7 @@
 
     <!-- Projects -->
 
-    <section class="section projects pb-5" id="projects">
+    <section class="section projects pt-5 pb-5" id="projects">
         <div class="container">
             <h1 class="text-center fw-bolder fs-1 pt-5 m-5"><span class="text-info">Projects</span> I've Been Working On
             </h1>
@@ -255,7 +268,7 @@
                             <label for="message" class="form-label">Enter Message below</label>
                             <textarea class="form-control" id="message" rows="3"></textarea>
                         </div>
-                        <button class="btn btn-outline-info link-btn fs-4 rounded-3">Contact Me</button>
+                        <a class="btn btn-outline-info link-btn fs-4 rounded-3">Contact Me</a>
                     </form>
                 </div>
             </div>
