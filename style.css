@@ -28,7 +28,13 @@ body {
     font-family: 'Roboto',
         sans-serif;
 }
+.btn{
+    transition: all 1s;
+}
 
+.btn:hover{
+    transform: scale(1.07);
+}
 /* End Universal */
 
 /* navigation bar */
