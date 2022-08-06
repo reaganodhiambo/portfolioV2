@@ -89,46 +89,6 @@ nav {
 }
 
 /* end hero section */
-
-/* footer */
-.footer {
-    background-color: #1B1F24;
-}
-
-
-.copyright {
-    font-size: 20px !important;
-
-}
-
-.last {
-    padding-right: 1rem;
-    font-size: 1.1rem;
-}
-
-.last1 {
-    padding-right: 0px;
-    font-size: 1rem;
-}
-
-.socials>a>i {
-    font-size: 20px;
-    transition: all 1s;
-}
-
-
-.socials>a>i:hover {
-    color: #5D6C83;
-    transform: scale(1.25);
-}
-
-.cp {
-    color: var(--neutral600);
-}
-
-
-/* end footer */
-
 /* projects */
 .projects {
     background-color: #2D343F;
@@ -168,6 +128,45 @@ nav {
 }
 
 /* end contact */
+
+/* footer */
+.footer {
+    background-color: #1B1F24;
+}
+
+
+.copyright {
+    font-size: 20px !important;
+
+}
+
+.last {
+    padding-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.last1 {
+    padding-right: 0px;
+    font-size: 1rem;
+}
+
+.socials>a>i {
+    font-size: 20px;
+    transition: all 1s;
+}
+
+
+.socials>a>i:hover {
+    color: #5D6C83;
+    transform: scale(1.25);
+}
+
+.cp {
+    color: var(--neutral600);
+}
+
+
+/* end footer */
 
 /* media queries */
 
