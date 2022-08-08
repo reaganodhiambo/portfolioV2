@@ -190,6 +190,10 @@ nav {
     .hero {
         margin-top: 8vh;
     }
+    .description{
+        
+        font-size: 2rem;
+    }
     .pic{
         padding-bottom: 20px;
     }
