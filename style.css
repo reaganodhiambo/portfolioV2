@@ -191,8 +191,11 @@ nav {
         margin-top: 8vh;
         min-height: 92vh;
     }
+    .reagan{
+        margin-top: 5vh !important;
+    }
     .description{
-        
+        margin-bottom: 2rem;
         font-size: 2.5rem;
     }
     .pic{
