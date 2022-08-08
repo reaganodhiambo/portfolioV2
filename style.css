@@ -97,6 +97,14 @@ nav {
 }
 
 /* end hero section */
+
+/* about */
+.about{
+    background-color: #2D343F;
+    min-height: 100vh;
+}
+/* end about */
+
 /* projects */
 .projects {
     background-color: #2D343F;
@@ -181,6 +189,9 @@ nav {
 @media only screen and (max-width: 768px) {
     .hero {
         margin-top: 8vh;
+    }
+    .pic{
+        padding-bottom: 20px;
     }
 
     .contact-left>h2 {
