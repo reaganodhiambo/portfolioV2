@@ -103,6 +103,15 @@ nav {
 .about{
     background-color: #2D343F;
     min-height: 100vh;
+    overflow: hidden;
+}
+.fc{
+    border-radius: 5%;
+    transition: ease-in-out 0.4s;
+}
+
+.fc:hover{
+    transform: scale(1.1);
 }
 /* end about */
 
